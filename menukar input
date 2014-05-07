@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+void main()
+{
+int a, b, c;
+
+cout<<"input A: ";
+cin>>a;
+cout<<endl;
+cout<<"input B: ";
+cin>>b;
+cout<<endl;
+
+c=a;
+a=b;
+b=c;
+
+cout<<"akhir A: "<<a<<endl;
+cout<<"akhir B: "<<b<<endl;
+
+
+}
